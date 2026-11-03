@@ -14,3 +14,5 @@ CSRF_TRUSTED_ORIGINS = [
     "https://tch.sh",
     "https://www.tch.sh",
 ]
+
+STATIC_ROOT = env.path("DJANGO_STATIC_ROOT")
